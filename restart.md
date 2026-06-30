@@ -22,6 +22,11 @@ _Last updated: 2026-06-30 — Phase 0 prototype built end to end; bundles & test
 - [x] `tools/generator` — OpenAI mnemonic+meme seeding with admin accept/reject→regenerate loop.
       **3 tests pass; dry-run seeded 50 radical mnemonics → `generated-assets/radicals.mnemonics.json`.**
 - [x] Data Bus wired fire-and-forget on level completion (`apps/mobile/lib/databus.ts`).
+- [x] Curated mnemonics published to committed `content/mnemonics.generated.json` (95 entries,
+      **mock/dry-run text, no images** — see B5) and loaded by `apps/mobile/lib/mnemonics.ts`.
+- [x] Friends + leaderboard screen (`app/social.tsx`, local stub) linked from home.
+- [x] Supabase schema + RLS (`supabase/migrations/0001_init.sql`) — not yet wired to the app.
+- [x] Git repo initialized and pushed: https://github.com/davidgrahamsites/rememeber-it (branch `main`).
 
 ## Verified this pass
 - `npm test` → 31 core + 3 generator tests pass.
@@ -29,13 +34,15 @@ _Last updated: 2026-06-30 — Phase 0 prototype built end to end; bundles & test
 - `npm run verify --workspace @rememeber-it/generator` → curation loop OK (pending→approve, reject→regenerate).
 
 ## Next concrete steps (in order)
-1. **Manual browser pass:** `cd apps/mobile && npx expo start --web`, complete a radicals level
+1. **Real OpenAI mnemonics:** set `OPENAI_API_KEY`, run
+   `npm run seed --workspace @rememeber-it/generator -- --course radicals` (interactive curation),
+   then `--course hsk1`. This replaces the mock placeholders with real text + meme images (B5).
+2. **Manual browser pass:** `cd apps/mobile && npx expo start --web`, complete a radicals level
    **keyboard-only** (1–4, Enter, Space, R, M, ?); confirm streak increments and the next level unlocks.
-2. Wire the curated `generated-assets/*.mnemonics.json` into the app's mnemonic list (replace the
-   `lib/mnemonics.ts` seed once assets are curated for real).
-3. Run a real OpenAI seed for radicals (set `OPENAI_API_KEY`) and admin-curate.
-4. Register the app in the Hub registry once it's packaged into a `.app` (see bugs.md).
-5. Begin Phase A workstreams: Supabase schema/RLS (`supabase/`), Auth (email/Google/Facebook).
+3. Store meme images in Supabase Storage and reference their URLs in `mnemonics.generated.json`.
+4. Begin Phase A: Supabase Auth (email/Google/Facebook) + a core-shaped data adapter so the app
+   swaps the local store for cloud sync without UI changes (schema already in `supabase/`).
+5. Register the app in the Hub registry once it's packaged into a `.app` (see bugs.md).
 
 ## Run commands
 ```bash

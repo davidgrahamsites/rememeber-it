@@ -17,6 +17,11 @@
   (Expo/Metro toolchain). No runtime impact on the shipped app; revisit with `npm audit` before
   store submission. Status: open.
 
+- **[B5] medium — mnemonics are mock placeholders, not real AI.**
+  `content/mnemonics.generated.json` (95 entries) was produced by the generator in **dry-run /
+  mock mode**: deterministic template text and **no meme images**. Run the generator with a real
+  `OPENAI_API_KEY` and admin-curate to replace them. Status: open (highest-value next step).
+
 ## Watchlist / risks (not bugs yet)
 - Typing exercise tolerant matching (pinyin tones, articles, synonyms) — add more cases to
   `exercise.test.ts` as real answers surface false negatives.
