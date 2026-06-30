@@ -39,3 +39,11 @@
 
 ## Learnings (append as we build)
 - `packages/ui` deferred for the prototype; design tokens live in `apps/mobile/lib/theme.ts`.
+- **Asset generation is resumable by design** (per user): a per-course `*.checklist.md` is written
+  first; each item is checked off as its image downloads, so a dropped connection resumes without
+  re-downloading. `gpt-image-1` returns base64 (no temp URL) → images saved straight to disk.
+- **Work split (per user):** delegate repetitive API-call/execution work to a **Haiku subagent**
+  that reports back to **Opus 4.8**, which does the heavy lifting (architecture/code/orchestration).
+- **Secrets:** `tools/generator/.env` is gitignored; `.env.example` is git-tracked (keep it a
+  placeholder only). The generator loads `.env` itself (no dotenv dep). Never commit real keys.
+- Repo: https://github.com/davidgrahamsites/rememeber-it (account davidgrahamsites; `main`).

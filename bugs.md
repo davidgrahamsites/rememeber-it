@@ -17,10 +17,15 @@
   (Expo/Metro toolchain). No runtime impact on the shipped app; revisit with `npm audit` before
   store submission. Status: open.
 
-- **[B5] medium — mnemonics are mock placeholders, not real AI.**
-  `content/mnemonics.generated.json` (95 entries) was produced by the generator in **dry-run /
-  mock mode**: deterministic template text and **no meme images**. Run the generator with a real
-  `OPENAI_API_KEY` and admin-curate to replace them. Status: open (highest-value next step).
+- **[B5] medium — real AI mnemonics being generated.** Replacing the mock placeholders via
+  `npm run generate` (gpt-4o-mini text + gpt-image-1 images), resumable through
+  `generated-assets/<course>.checklist.md`. Status: PAUSED (radicals 14/50 real text + images, hsk1 0/45,
+  81 mock placeholders remain). Resume via `npm run generate --workspace @rememeber-it/generator -- --course <radicals|hsk1>`.
+  Once complete, the meme PNGs are local-only (`generated-assets/images/`) pending the Supabase Storage move (B6).
+- **[B6] medium — meme images are local-only, not hosted.** Images download to
+  `generated-assets/images/<course>/` (gitignored). The app does not display them yet; upload to
+  Supabase Storage and store the public URL in `mnemonics.generated.json` (`image` → `memeImageUrl`).
+  Status: open (planned with Phase B).
 
 ## Watchlist / risks (not bugs yet)
 - Typing exercise tolerant matching (pinyin tones, articles, synonyms) — add more cases to

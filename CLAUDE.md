@@ -49,7 +49,16 @@ cd apps/mobile && npx expo export --platform web   # verify the web bundle compi
 # Mnemonic seeding (offline dry-run; real run needs OPENAI_API_KEY):
 npm run seed --workspace @rememeber-it/generator -- --course radicals --dry-run --auto-approve
 npm run verify --workspace @rememeber-it/generator
+
+# Real asset generation — resumable; downloads meme images to generated-assets/images/.
+# Needs tools/generator/.env (OPENAI_API_KEY=...). Re-run to resume; skips completed items.
+npm run generate --workspace @rememeber-it/generator -- --course radicals
+npm run generate --workspace @rememeber-it/generator -- --course hsk1
 ```
+
+Generated text + image paths are written to `content/mnemonics.generated.json` (committed);
+the PNG files live in `generated-assets/images/<course>/` (gitignored, local-only until moved to
+Supabase Storage). Per-course progress is tracked in `generated-assets/<course>.checklist.md`.
 
 ## Conventions
 

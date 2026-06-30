@@ -1,48 +1,63 @@
 {
   "radicals-l1-i1": {
-    "text": "Picture \"one\" when you see 一 (yī)."
+    "text": "Picture a single noodle doing a solo dance on a plate, proudly shouting \"Yī am number one!\"",
+    "image": "images/radicals/radicals-l1-i1.png"
   },
   "radicals-l1-i2": {
-    "text": "Picture \"line\" when you see 丨 (gǔn)."
+    "text": "A straight line walks into a bar and says, \"I'm just here to draw the line!\"",
+    "image": "images/radicals/radicals-l1-i2.png"
   },
   "radicals-l1-i3": {
-    "text": "Picture \"dot\" when you see 丶 (zhǔ)."
+    "text": "Imagine a tiny dot wearing a wizard hat, casting a spell to turn everything around it into polka dots!",
+    "image": "images/radicals/radicals-l1-i3.png"
   },
   "radicals-l1-i4": {
-    "text": "Picture \"person\" when you see 人 (rén)."
+    "text": "Picture a tiny \"person\" doing a little dance, and every time they twirl, they shout \"Rén!\"—because they love being the center of attention!",
+    "image": "images/radicals/radicals-l1-i4.png"
   },
   "radicals-l1-i5": {
-    "text": "Picture \"knife\" when you see 刀 (dāo)."
+    "text": "Imagine a chef who can’t stop cutting up vegetables, shouting, “Dah! Oh! I need my knife!”",
+    "image": "images/radicals/radicals-l1-i5.png"
   },
   "radicals-l1-i6": {
-    "text": "Picture \"power\" when you see 力 (lì)."
+    "text": "Imagine a tiny superhero named \"Li\" flexing his muscles, shouting, \"I have the power!\" as he lifts a giant dumpling!",
+    "image": "images/radicals/radicals-l1-i6.png"
   },
   "radicals-l1-i7": {
-    "text": "Picture \"again\" when you see 又 (yòu)."
+    "text": "Imagine a tired panda saying \"Yow! Not again!\" as it tripled over bamboo, reminding you that \"又\" (yòu) means \"again\"!",
+    "image": "images/radicals/radicals-l1-i7.png"
   },
   "radicals-l1-i8": {
-    "text": "Picture \"mouth\" when you see 口 (kǒu)."
+    "text": "Imagine a mouth with a big \"K\" on it, ready to \"Kǒu\" out a giant cookie!",
+    "image": "images/radicals/radicals-l1-i8.png"
   },
   "radicals-l1-i9": {
-    "text": "Picture \"enclosure\" when you see 囗 (wéi)."
+    "text": "Imagine a giant cookie, perfectly enclosed in a big chocolate shell—because that cookie is really \"wéi\" in a cozy \"enclosure\"!",
+    "image": "images/radicals/radicals-l1-i9.png"
   },
   "radicals-l1-i10": {
-    "text": "Picture \"earth\" when you see 土 (tǔ)."
+    "text": "Imagine a tiny \"turtle\" (tǔ) wearing a party hat made of dirt, celebrating its birthday on a giant \"earth\" cake!",
+    "image": "images/radicals/radicals-l1-i10.png"
   },
   "radicals-l2-i1": {
-    "text": "Picture \"evening\" when you see 夕 (xī)."
+    "text": "Picture a sleepy \"xi\" (she) yawning as the sun sets, saying, “Evening is when I finally get to relax!”",
+    "image": "images/radicals/radicals-l2-i1.png"
   },
   "radicals-l2-i2": {
-    "text": "Picture \"big\" when you see 大 (dà)."
+    "text": "Imagine a giant panda doing yoga and stretching its arms wide, saying, \"I'm Dà big!\"",
+    "image": "images/radicals/radicals-l2-i2.png"
   },
   "radicals-l2-i3": {
-    "text": "Picture \"woman\" when you see 女 (nǚ)."
+    "text": "Imagine a woman juggling two big \"N\" shaped noodles—she’s definitely a \"nǚ-ling\" master of multitasking!",
+    "image": "images/radicals/radicals-l2-i3.png"
   },
   "radicals-l2-i4": {
-    "text": "Picture \"child\" when you see 子 (zǐ)."
+    "text": "Picture a tiny \"zi\"pping child zooming around with a toy, reminding you that \"子\" means \"child\"!",
+    "image": "images/radicals/radicals-l2-i4.png"
   },
   "radicals-l2-i5": {
-    "text": "Picture \"inch\" when you see 寸 (cùn)."
+    "text": "Picture a tiny inchworm measuring inches with a ruler, saying, \"Just call me ‘cùn’—the inch champion!\"",
+    "image": "images/radicals/radicals-l2-i5.png"
   },
   "radicals-l2-i6": {
     "text": "Picture \"small\" when you see 小 (xiǎo)."

@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "seed": "tsx src/seed.ts",
+    "generate": "tsx src/batch.ts",
     "verify": "tsx src/verify.ts",
     "test": "vitest run"
   },

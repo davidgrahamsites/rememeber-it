@@ -2,7 +2,7 @@
 
 > Source of truth for "what's done / what's next". Re-write at the end of every build pass.
 
-_Last updated: 2026-06-30 — Phase 0 prototype built end to end; bundles & tests green._
+_Last updated: 2026-06-30 — asset generation paused at user request (radicals 14/50, hsk1 0/45)._
 
 ## Current phase
 **Phase 0 — Prototype** (local data, no auth, no backend).
@@ -33,10 +33,18 @@ _Last updated: 2026-06-30 — Phase 0 prototype built end to end; bundles & test
 - `npx expo export --platform web` → bundles 1263 modules; static shell serves & bundle loads (200).
 - `npm run verify --workspace @rememeber-it/generator` → curation loop OK (pending→approve, reject→regenerate).
 
+## Asset generation (PAUSED — resume here)
+- Real mnemonic text (gpt-4o-mini) + meme images (gpt-image-1) generation was paused at user request.
+  **Progress:** radicals 14/50 (real text + downloaded PNG images); hsk1 0/45 (not started);
+  81 remaining entries in `content/mnemonics.generated.json` are still mock placeholders (no images).
+  **Resumable:** Re-run `npm run generate --workspace @rememeber-it/generator -- --course <radicals|hsk1>`
+  to continue from item 15 (radicals) or start hsk1. Completed items are tracked in
+  `generated-assets/<course>.checklist.md` and will be skipped. Key lives in `tools/generator/.env` (gitignored).
+
 ## Next concrete steps (in order)
-1. **Real OpenAI mnemonics:** set `OPENAI_API_KEY`, run
-   `npm run seed --workspace @rememeber-it/generator -- --course radicals` (interactive curation),
-   then `--course hsk1`. This replaces the mock placeholders with real text + meme images (B5).
+1. After generation completes: upload `generated-assets/images/**` to **Supabase Storage** and
+   replace the local `image` paths in `content/mnemonics.generated.json` with public URLs; then
+   surface `memeImageUrl` in the app's MnemonicPanel (B6).
 2. **Manual browser pass:** `cd apps/mobile && npx expo start --web`, complete a radicals level
    **keyboard-only** (1–4, Enter, Space, R, M, ?); confirm streak increments and the next level unlocks.
 3. Store meme images in Supabase Storage and reference their URLs in `mnemonics.generated.json`.
