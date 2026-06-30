@@ -1,0 +1,79 @@
+{
+  "slug": "hsk1",
+  "title": "HSK1 Vocabulary & Grammar",
+  "language": "zh-Hans",
+  "description": "Core HSK Level 1 words and grammar patterns. A starter set — see bugs.md for completing the full ~150-word list from a cited source.",
+  "order": 2,
+  "levels": [
+    {
+      "title": "Level 1 · Pronouns & basics",
+      "items": [
+        { "prompt": "我", "answer": "I", "altAnswers": ["me"], "reading": "wǒ", "partOfSpeech": "pronoun", "kind": "vocab" },
+        { "prompt": "你", "answer": "you", "reading": "nǐ", "partOfSpeech": "pronoun", "kind": "vocab" },
+        { "prompt": "他", "answer": "he", "altAnswers": ["him"], "reading": "tā", "partOfSpeech": "pronoun", "kind": "vocab" },
+        { "prompt": "她", "answer": "she", "altAnswers": ["her"], "reading": "tā", "partOfSpeech": "pronoun", "kind": "vocab" },
+        { "prompt": "好", "answer": "good", "altAnswers": ["well", "fine"], "reading": "hǎo", "partOfSpeech": "adjective", "kind": "vocab" },
+        { "prompt": "是", "answer": "to be", "altAnswers": ["is", "am", "are"], "reading": "shì", "partOfSpeech": "verb", "kind": "vocab" },
+        { "prompt": "不", "answer": "not", "altAnswers": ["no"], "reading": "bù", "partOfSpeech": "adverb", "kind": "vocab" },
+        { "prompt": "谢谢", "answer": "thanks", "altAnswers": ["thank you"], "reading": "xièxie", "partOfSpeech": "phrase", "kind": "vocab" },
+        { "prompt": "再见", "answer": "goodbye", "altAnswers": ["bye"], "reading": "zàijiàn", "partOfSpeech": "phrase", "kind": "vocab" },
+        { "prompt": "请", "answer": "please", "reading": "qǐng", "partOfSpeech": "verb", "kind": "vocab" }
+      ]
+    },
+    {
+      "title": "Level 2 · Numbers & people",
+      "items": [
+        { "prompt": "一", "answer": "one", "reading": "yī", "partOfSpeech": "number", "kind": "vocab" },
+        { "prompt": "二", "answer": "two", "reading": "èr", "partOfSpeech": "number", "kind": "vocab" },
+        { "prompt": "三", "answer": "three", "reading": "sān", "partOfSpeech": "number", "kind": "vocab" },
+        { "prompt": "大", "answer": "big", "altAnswers": ["large"], "reading": "dà", "partOfSpeech": "adjective", "kind": "vocab" },
+        { "prompt": "小", "answer": "small", "altAnswers": ["little"], "reading": "xiǎo", "partOfSpeech": "adjective", "kind": "vocab" },
+        { "prompt": "人", "answer": "person", "altAnswers": ["people"], "reading": "rén", "partOfSpeech": "noun", "kind": "vocab" },
+        { "prompt": "名字", "answer": "name", "reading": "míngzi", "partOfSpeech": "noun", "kind": "vocab" },
+        { "prompt": "中国", "answer": "China", "reading": "Zhōngguó", "partOfSpeech": "noun", "kind": "vocab" },
+        { "prompt": "学生", "answer": "student", "reading": "xuésheng", "partOfSpeech": "noun", "kind": "vocab" },
+        { "prompt": "老师", "answer": "teacher", "reading": "lǎoshī", "partOfSpeech": "noun", "kind": "vocab" }
+      ]
+    },
+    {
+      "title": "Level 3 · Everyday verbs",
+      "items": [
+        { "prompt": "爱", "answer": "to love", "altAnswers": ["love"], "reading": "ài", "partOfSpeech": "verb", "kind": "vocab" },
+        { "prompt": "吃", "answer": "to eat", "altAnswers": ["eat"], "reading": "chī", "partOfSpeech": "verb", "kind": "vocab" },
+        { "prompt": "喝", "answer": "to drink", "altAnswers": ["drink"], "reading": "hē", "partOfSpeech": "verb", "kind": "vocab" },
+        { "prompt": "看", "answer": "to look", "altAnswers": ["look", "watch", "read"], "reading": "kàn", "partOfSpeech": "verb", "kind": "vocab" },
+        { "prompt": "听", "answer": "to listen", "altAnswers": ["listen", "hear"], "reading": "tīng", "partOfSpeech": "verb", "kind": "vocab" },
+        { "prompt": "说", "answer": "to speak", "altAnswers": ["speak", "say"], "reading": "shuō", "partOfSpeech": "verb", "kind": "vocab" },
+        { "prompt": "来", "answer": "to come", "altAnswers": ["come"], "reading": "lái", "partOfSpeech": "verb", "kind": "vocab" },
+        { "prompt": "去", "answer": "to go", "altAnswers": ["go"], "reading": "qù", "partOfSpeech": "verb", "kind": "vocab" },
+        { "prompt": "有", "answer": "to have", "altAnswers": ["have", "there is"], "reading": "yǒu", "partOfSpeech": "verb", "kind": "vocab" },
+        { "prompt": "买", "answer": "to buy", "altAnswers": ["buy"], "reading": "mǎi", "partOfSpeech": "verb", "kind": "vocab" }
+      ]
+    },
+    {
+      "title": "Level 4 · Time & places",
+      "items": [
+        { "prompt": "今天", "answer": "today", "reading": "jīntiān", "partOfSpeech": "noun", "kind": "vocab" },
+        { "prompt": "明天", "answer": "tomorrow", "reading": "míngtiān", "partOfSpeech": "noun", "kind": "vocab" },
+        { "prompt": "昨天", "answer": "yesterday", "reading": "zuótiān", "partOfSpeech": "noun", "kind": "vocab" },
+        { "prompt": "现在", "answer": "now", "reading": "xiànzài", "partOfSpeech": "noun", "kind": "vocab" },
+        { "prompt": "家", "answer": "home", "altAnswers": ["family", "house"], "reading": "jiā", "partOfSpeech": "noun", "kind": "vocab" },
+        { "prompt": "朋友", "answer": "friend", "reading": "péngyou", "partOfSpeech": "noun", "kind": "vocab" },
+        { "prompt": "水", "answer": "water", "reading": "shuǐ", "partOfSpeech": "noun", "kind": "vocab" },
+        { "prompt": "茶", "answer": "tea", "reading": "chá", "partOfSpeech": "noun", "kind": "vocab" },
+        { "prompt": "饭", "answer": "meal", "altAnswers": ["rice", "food"], "reading": "fàn", "partOfSpeech": "noun", "kind": "vocab" },
+        { "prompt": "书", "answer": "book", "reading": "shū", "partOfSpeech": "noun", "kind": "vocab" }
+      ]
+    },
+    {
+      "title": "Level 5 · Grammar patterns",
+      "items": [
+        { "prompt": "是", "answer": "是", "altAnswers": ["shi"], "reading": "shì", "notes": "A 是 B — 'A is B'.", "clozeSentence": "我___学生。", "kind": "grammar" },
+        { "prompt": "的", "answer": "的", "altAnswers": ["de"], "reading": "de", "notes": "Possessive particle: 我的 = my.", "clozeSentence": "这是我___书。", "kind": "grammar" },
+        { "prompt": "了", "answer": "了", "altAnswers": ["le"], "reading": "le", "notes": "Completed-action particle.", "clozeSentence": "我吃___饭。", "kind": "grammar" },
+        { "prompt": "吗", "answer": "吗", "altAnswers": ["ma"], "reading": "ma", "notes": "Yes/no question particle at sentence end.", "clozeSentence": "你好___?", "kind": "grammar" },
+        { "prompt": "不", "answer": "不", "altAnswers": ["bu"], "reading": "bù", "notes": "Negation before a verb.", "clozeSentence": "我___喝茶。", "kind": "grammar" }
+      ]
+    }
+  ]
+}

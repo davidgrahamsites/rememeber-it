@@ -1,0 +1,19 @@
+{
+  "name": "rememeber-it",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Spaced-repetition language learning — community mnemonic database (web + iPhone).",
+  "workspaces": [
+    "packages/*",
+    "apps/*",
+    "tools/*"
+  ],
+  "scripts": {
+    "test": "npm test --workspace @rememeber-it/core",
+    "typecheck": "npm run typecheck --workspace @rememeber-it/core",
+    "web": "npm run web --workspace mobile",
+    "ios": "npm run ios --workspace mobile",
+    "seed": "npm run seed --workspace @rememeber-it/generator"
+  },
+  "license": "UNLICENSED"
+}

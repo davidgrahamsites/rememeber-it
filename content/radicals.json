@@ -1,0 +1,84 @@
+{
+  "slug": "radicals",
+  "title": "Simplified Chinese Radicals",
+  "language": "zh-Hans",
+  "description": "The building blocks of Chinese characters. Learn the high-frequency simplified radicals, grouped by stroke count.",
+  "order": 1,
+  "levels": [
+    {
+      "title": "Level 1 · First strokes",
+      "items": [
+        { "prompt": "一", "answer": "one", "reading": "yī", "notes": "Example: 三 (three)", "kind": "radical" },
+        { "prompt": "丨", "answer": "line", "altAnswers": ["vertical stroke"], "reading": "gǔn", "notes": "Example: 中 (middle)", "kind": "radical" },
+        { "prompt": "丶", "answer": "dot", "reading": "zhǔ", "notes": "Example: 主 (master)", "kind": "radical" },
+        { "prompt": "人", "answer": "person", "altAnswers": ["man", "亻"], "reading": "rén", "notes": "Side form 亻. Example: 你 (you)", "kind": "radical" },
+        { "prompt": "刀", "answer": "knife", "altAnswers": ["刂"], "reading": "dāo", "notes": "Side form 刂. Example: 分 (divide)", "kind": "radical" },
+        { "prompt": "力", "answer": "power", "altAnswers": ["strength"], "reading": "lì", "notes": "Example: 男 (male)", "kind": "radical" },
+        { "prompt": "又", "answer": "again", "altAnswers": ["hand", "right hand"], "reading": "yòu", "notes": "Example: 友 (friend)", "kind": "radical" },
+        { "prompt": "口", "answer": "mouth", "reading": "kǒu", "notes": "Example: 吃 (eat)", "kind": "radical" },
+        { "prompt": "囗", "answer": "enclosure", "altAnswers": ["surround"], "reading": "wéi", "notes": "Example: 国 (country)", "kind": "radical" },
+        { "prompt": "土", "answer": "earth", "altAnswers": ["soil"], "reading": "tǔ", "notes": "Example: 地 (ground)", "kind": "radical" }
+      ]
+    },
+    {
+      "title": "Level 2 · People & things",
+      "items": [
+        { "prompt": "夕", "answer": "evening", "altAnswers": ["dusk"], "reading": "xī", "notes": "Example: 多 (many)", "kind": "radical" },
+        { "prompt": "大", "answer": "big", "altAnswers": ["large"], "reading": "dà", "notes": "Example: 天 (sky)", "kind": "radical" },
+        { "prompt": "女", "answer": "woman", "altAnswers": ["female"], "reading": "nǚ", "notes": "Example: 好 (good)", "kind": "radical" },
+        { "prompt": "子", "answer": "child", "altAnswers": ["son"], "reading": "zǐ", "notes": "Example: 字 (character)", "kind": "radical" },
+        { "prompt": "寸", "answer": "inch", "reading": "cùn", "notes": "Example: 对 (correct)", "kind": "radical" },
+        { "prompt": "小", "answer": "small", "altAnswers": ["little"], "reading": "xiǎo", "notes": "Example: 少 (few)", "kind": "radical" },
+        { "prompt": "工", "answer": "work", "altAnswers": ["labor"], "reading": "gōng", "notes": "Example: 左 (left)", "kind": "radical" },
+        { "prompt": "巾", "answer": "cloth", "altAnswers": ["towel"], "reading": "jīn", "notes": "Example: 帽 (hat)", "kind": "radical" },
+        { "prompt": "干", "answer": "dry", "altAnswers": ["shield"], "reading": "gān", "notes": "Example: 平 (flat)", "kind": "radical" },
+        { "prompt": "弓", "answer": "bow", "reading": "gōng", "notes": "Example: 张 (open/stretch)", "kind": "radical" }
+      ]
+    },
+    {
+      "title": "Level 3 · Nature & body",
+      "items": [
+        { "prompt": "心", "answer": "heart", "altAnswers": ["mind", "忄"], "reading": "xīn", "notes": "Side form 忄. Example: 想 (think)", "kind": "radical" },
+        { "prompt": "手", "answer": "hand", "altAnswers": ["扌"], "reading": "shǒu", "notes": "Side form 扌. Example: 打 (hit)", "kind": "radical" },
+        { "prompt": "日", "answer": "sun", "altAnswers": ["day"], "reading": "rì", "notes": "Example: 明 (bright)", "kind": "radical" },
+        { "prompt": "月", "answer": "moon", "altAnswers": ["month", "meat"], "reading": "yuè", "notes": "Also means flesh/meat. Example: 朋 (friend)", "kind": "radical" },
+        { "prompt": "木", "answer": "tree", "altAnswers": ["wood"], "reading": "mù", "notes": "Example: 林 (forest)", "kind": "radical" },
+        { "prompt": "水", "answer": "water", "altAnswers": ["氵"], "reading": "shuǐ", "notes": "Side form 氵. Example: 河 (river)", "kind": "radical" },
+        { "prompt": "火", "answer": "fire", "altAnswers": ["灬"], "reading": "huǒ", "notes": "Bottom form 灬. Example: 烧 (burn)", "kind": "radical" },
+        { "prompt": "父", "answer": "father", "reading": "fù", "notes": "Example: 爸 (dad)", "kind": "radical" },
+        { "prompt": "牛", "answer": "cow", "altAnswers": ["ox"], "reading": "niú", "notes": "Example: 物 (thing)", "kind": "radical" },
+        { "prompt": "犬", "answer": "dog", "altAnswers": ["犭"], "reading": "quǎn", "notes": "Side form 犭. Example: 猫 (cat)", "kind": "radical" }
+      ]
+    },
+    {
+      "title": "Level 4 · Fields & materials",
+      "items": [
+        { "prompt": "田", "answer": "field", "altAnswers": ["paddy"], "reading": "tián", "notes": "Example: 男 (male)", "kind": "radical" },
+        { "prompt": "目", "answer": "eye", "reading": "mù", "notes": "Example: 看 (look)", "kind": "radical" },
+        { "prompt": "石", "answer": "stone", "altAnswers": ["rock"], "reading": "shí", "notes": "Example: 码 (code)", "kind": "radical" },
+        { "prompt": "示", "answer": "spirit", "altAnswers": ["altar", "礻", "ritual"], "reading": "shì", "notes": "Side form 礻. Example: 礼 (courtesy)", "kind": "radical" },
+        { "prompt": "禾", "answer": "grain", "altAnswers": ["cereal"], "reading": "hé", "notes": "Example: 和 (and/harmony)", "kind": "radical" },
+        { "prompt": "竹", "answer": "bamboo", "altAnswers": ["⺮"], "reading": "zhú", "notes": "Top form ⺮. Example: 笔 (pen)", "kind": "radical" },
+        { "prompt": "米", "answer": "rice", "reading": "mǐ", "notes": "Example: 类 (kind/type)", "kind": "radical" },
+        { "prompt": "糸", "answer": "silk", "altAnswers": ["纟", "thread"], "reading": "sī", "notes": "Side form 纟. Example: 红 (red)", "kind": "radical" },
+        { "prompt": "耳", "answer": "ear", "reading": "ěr", "notes": "Example: 听 (listen)", "kind": "radical" },
+        { "prompt": "衣", "answer": "clothing", "altAnswers": ["clothes", "衤"], "reading": "yī", "notes": "Side form 衤. Example: 裙 (skirt)", "kind": "radical" }
+      ]
+    },
+    {
+      "title": "Level 5 · Words & motion",
+      "items": [
+        { "prompt": "言", "answer": "speech", "altAnswers": ["words", "讠"], "reading": "yán", "notes": "Side form 讠. Example: 说 (speak)", "kind": "radical" },
+        { "prompt": "贝", "answer": "shell", "altAnswers": ["money", "cowrie"], "reading": "bèi", "notes": "Relates to money. Example: 财 (wealth)", "kind": "radical" },
+        { "prompt": "走", "answer": "walk", "altAnswers": ["go"], "reading": "zǒu", "notes": "Example: 起 (rise)", "kind": "radical" },
+        { "prompt": "足", "answer": "foot", "altAnswers": ["leg"], "reading": "zú", "notes": "Example: 跑 (run)", "kind": "radical" },
+        { "prompt": "金", "answer": "metal", "altAnswers": ["gold", "钅"], "reading": "jīn", "notes": "Side form 钅. Example: 钱 (money)", "kind": "radical" },
+        { "prompt": "门", "answer": "door", "altAnswers": ["gate"], "reading": "mén", "notes": "Example: 问 (ask)", "kind": "radical" },
+        { "prompt": "隹", "answer": "short-tailed bird", "altAnswers": ["bird"], "reading": "zhuī", "notes": "Example: 难 (difficult)", "kind": "radical" },
+        { "prompt": "雨", "answer": "rain", "reading": "yǔ", "notes": "Example: 雪 (snow)", "kind": "radical" },
+        { "prompt": "食", "answer": "food", "altAnswers": ["eat", "饣"], "reading": "shí", "notes": "Side form 饣. Example: 饭 (meal)", "kind": "radical" },
+        { "prompt": "马", "answer": "horse", "reading": "mǎ", "notes": "Example: 妈 (mom)", "kind": "radical" }
+      ]
+    }
+  ]
+}

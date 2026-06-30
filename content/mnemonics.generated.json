@@ -1,0 +1,287 @@
+{
+  "radicals-l1-i1": {
+    "text": "Picture \"one\" when you see 一 (yī)."
+  },
+  "radicals-l1-i2": {
+    "text": "Picture \"line\" when you see 丨 (gǔn)."
+  },
+  "radicals-l1-i3": {
+    "text": "Picture \"dot\" when you see 丶 (zhǔ)."
+  },
+  "radicals-l1-i4": {
+    "text": "Picture \"person\" when you see 人 (rén)."
+  },
+  "radicals-l1-i5": {
+    "text": "Picture \"knife\" when you see 刀 (dāo)."
+  },
+  "radicals-l1-i6": {
+    "text": "Picture \"power\" when you see 力 (lì)."
+  },
+  "radicals-l1-i7": {
+    "text": "Picture \"again\" when you see 又 (yòu)."
+  },
+  "radicals-l1-i8": {
+    "text": "Picture \"mouth\" when you see 口 (kǒu)."
+  },
+  "radicals-l1-i9": {
+    "text": "Picture \"enclosure\" when you see 囗 (wéi)."
+  },
+  "radicals-l1-i10": {
+    "text": "Picture \"earth\" when you see 土 (tǔ)."
+  },
+  "radicals-l2-i1": {
+    "text": "Picture \"evening\" when you see 夕 (xī)."
+  },
+  "radicals-l2-i2": {
+    "text": "Picture \"big\" when you see 大 (dà)."
+  },
+  "radicals-l2-i3": {
+    "text": "Picture \"woman\" when you see 女 (nǚ)."
+  },
+  "radicals-l2-i4": {
+    "text": "Picture \"child\" when you see 子 (zǐ)."
+  },
+  "radicals-l2-i5": {
+    "text": "Picture \"inch\" when you see 寸 (cùn)."
+  },
+  "radicals-l2-i6": {
+    "text": "Picture \"small\" when you see 小 (xiǎo)."
+  },
+  "radicals-l2-i7": {
+    "text": "Picture \"work\" when you see 工 (gōng)."
+  },
+  "radicals-l2-i8": {
+    "text": "Picture \"cloth\" when you see 巾 (jīn)."
+  },
+  "radicals-l2-i9": {
+    "text": "Picture \"dry\" when you see 干 (gān)."
+  },
+  "radicals-l2-i10": {
+    "text": "Picture \"bow\" when you see 弓 (gōng)."
+  },
+  "radicals-l3-i1": {
+    "text": "Picture \"heart\" when you see 心 (xīn)."
+  },
+  "radicals-l3-i2": {
+    "text": "Picture \"hand\" when you see 手 (shǒu)."
+  },
+  "radicals-l3-i3": {
+    "text": "Picture \"sun\" when you see 日 (rì)."
+  },
+  "radicals-l3-i4": {
+    "text": "Picture \"moon\" when you see 月 (yuè)."
+  },
+  "radicals-l3-i5": {
+    "text": "Picture \"tree\" when you see 木 (mù)."
+  },
+  "radicals-l3-i6": {
+    "text": "Picture \"water\" when you see 水 (shuǐ)."
+  },
+  "radicals-l3-i7": {
+    "text": "Picture \"fire\" when you see 火 (huǒ)."
+  },
+  "radicals-l3-i8": {
+    "text": "Picture \"father\" when you see 父 (fù)."
+  },
+  "radicals-l3-i9": {
+    "text": "Picture \"cow\" when you see 牛 (niú)."
+  },
+  "radicals-l3-i10": {
+    "text": "Picture \"dog\" when you see 犬 (quǎn)."
+  },
+  "radicals-l4-i1": {
+    "text": "Picture \"field\" when you see 田 (tián)."
+  },
+  "radicals-l4-i2": {
+    "text": "Picture \"eye\" when you see 目 (mù)."
+  },
+  "radicals-l4-i3": {
+    "text": "Picture \"stone\" when you see 石 (shí)."
+  },
+  "radicals-l4-i4": {
+    "text": "Picture \"spirit\" when you see 示 (shì)."
+  },
+  "radicals-l4-i5": {
+    "text": "Picture \"grain\" when you see 禾 (hé)."
+  },
+  "radicals-l4-i6": {
+    "text": "Picture \"bamboo\" when you see 竹 (zhú)."
+  },
+  "radicals-l4-i7": {
+    "text": "Picture \"rice\" when you see 米 (mǐ)."
+  },
+  "radicals-l4-i8": {
+    "text": "Picture \"silk\" when you see 糸 (sī)."
+  },
+  "radicals-l4-i9": {
+    "text": "Picture \"ear\" when you see 耳 (ěr)."
+  },
+  "radicals-l4-i10": {
+    "text": "Picture \"clothing\" when you see 衣 (yī)."
+  },
+  "radicals-l5-i1": {
+    "text": "Picture \"speech\" when you see 言 (yán)."
+  },
+  "radicals-l5-i2": {
+    "text": "Picture \"shell\" when you see 贝 (bèi)."
+  },
+  "radicals-l5-i3": {
+    "text": "Picture \"walk\" when you see 走 (zǒu)."
+  },
+  "radicals-l5-i4": {
+    "text": "Picture \"foot\" when you see 足 (zú)."
+  },
+  "radicals-l5-i5": {
+    "text": "Picture \"metal\" when you see 金 (jīn)."
+  },
+  "radicals-l5-i6": {
+    "text": "Picture \"door\" when you see 门 (mén)."
+  },
+  "radicals-l5-i7": {
+    "text": "Picture \"short-tailed bird\" when you see 隹 (zhuī)."
+  },
+  "radicals-l5-i8": {
+    "text": "Picture \"rain\" when you see 雨 (yǔ)."
+  },
+  "radicals-l5-i9": {
+    "text": "Picture \"food\" when you see 食 (shí)."
+  },
+  "radicals-l5-i10": {
+    "text": "Picture \"horse\" when you see 马 (mǎ)."
+  },
+  "hsk1-l1-i1": {
+    "text": "Picture \"I\" when you see 我 (wǒ)."
+  },
+  "hsk1-l1-i2": {
+    "text": "Picture \"you\" when you see 你 (nǐ)."
+  },
+  "hsk1-l1-i3": {
+    "text": "Picture \"he\" when you see 他 (tā)."
+  },
+  "hsk1-l1-i4": {
+    "text": "Picture \"she\" when you see 她 (tā)."
+  },
+  "hsk1-l1-i5": {
+    "text": "Picture \"good\" when you see 好 (hǎo)."
+  },
+  "hsk1-l1-i6": {
+    "text": "Picture \"to be\" when you see 是 (shì)."
+  },
+  "hsk1-l1-i7": {
+    "text": "Picture \"not\" when you see 不 (bù)."
+  },
+  "hsk1-l1-i8": {
+    "text": "Picture \"thanks\" when you see 谢谢 (xièxie)."
+  },
+  "hsk1-l1-i9": {
+    "text": "Picture \"goodbye\" when you see 再见 (zàijiàn)."
+  },
+  "hsk1-l1-i10": {
+    "text": "Picture \"please\" when you see 请 (qǐng)."
+  },
+  "hsk1-l2-i1": {
+    "text": "Picture \"one\" when you see 一 (yī)."
+  },
+  "hsk1-l2-i2": {
+    "text": "Picture \"two\" when you see 二 (èr)."
+  },
+  "hsk1-l2-i3": {
+    "text": "Picture \"three\" when you see 三 (sān)."
+  },
+  "hsk1-l2-i4": {
+    "text": "Picture \"big\" when you see 大 (dà)."
+  },
+  "hsk1-l2-i5": {
+    "text": "Picture \"small\" when you see 小 (xiǎo)."
+  },
+  "hsk1-l2-i6": {
+    "text": "Picture \"person\" when you see 人 (rén)."
+  },
+  "hsk1-l2-i7": {
+    "text": "Picture \"name\" when you see 名字 (míngzi)."
+  },
+  "hsk1-l2-i8": {
+    "text": "Picture \"China\" when you see 中国 (Zhōngguó)."
+  },
+  "hsk1-l2-i9": {
+    "text": "Picture \"student\" when you see 学生 (xuésheng)."
+  },
+  "hsk1-l2-i10": {
+    "text": "Picture \"teacher\" when you see 老师 (lǎoshī)."
+  },
+  "hsk1-l3-i1": {
+    "text": "Picture \"to love\" when you see 爱 (ài)."
+  },
+  "hsk1-l3-i2": {
+    "text": "Picture \"to eat\" when you see 吃 (chī)."
+  },
+  "hsk1-l3-i3": {
+    "text": "Picture \"to drink\" when you see 喝 (hē)."
+  },
+  "hsk1-l3-i4": {
+    "text": "Picture \"to look\" when you see 看 (kàn)."
+  },
+  "hsk1-l3-i5": {
+    "text": "Picture \"to listen\" when you see 听 (tīng)."
+  },
+  "hsk1-l3-i6": {
+    "text": "Picture \"to speak\" when you see 说 (shuō)."
+  },
+  "hsk1-l3-i7": {
+    "text": "Picture \"to come\" when you see 来 (lái)."
+  },
+  "hsk1-l3-i8": {
+    "text": "Picture \"to go\" when you see 去 (qù)."
+  },
+  "hsk1-l3-i9": {
+    "text": "Picture \"to have\" when you see 有 (yǒu)."
+  },
+  "hsk1-l3-i10": {
+    "text": "Picture \"to buy\" when you see 买 (mǎi)."
+  },
+  "hsk1-l4-i1": {
+    "text": "Picture \"today\" when you see 今天 (jīntiān)."
+  },
+  "hsk1-l4-i2": {
+    "text": "Picture \"tomorrow\" when you see 明天 (míngtiān)."
+  },
+  "hsk1-l4-i3": {
+    "text": "Picture \"yesterday\" when you see 昨天 (zuótiān)."
+  },
+  "hsk1-l4-i4": {
+    "text": "Picture \"now\" when you see 现在 (xiànzài)."
+  },
+  "hsk1-l4-i5": {
+    "text": "Picture \"home\" when you see 家 (jiā)."
+  },
+  "hsk1-l4-i6": {
+    "text": "Picture \"friend\" when you see 朋友 (péngyou)."
+  },
+  "hsk1-l4-i7": {
+    "text": "Picture \"water\" when you see 水 (shuǐ)."
+  },
+  "hsk1-l4-i8": {
+    "text": "Picture \"tea\" when you see 茶 (chá)."
+  },
+  "hsk1-l4-i9": {
+    "text": "Picture \"meal\" when you see 饭 (fàn)."
+  },
+  "hsk1-l4-i10": {
+    "text": "Picture \"book\" when you see 书 (shū)."
+  },
+  "hsk1-l5-i1": {
+    "text": "Picture \"是\" when you see 是 (shì)."
+  },
+  "hsk1-l5-i2": {
+    "text": "Picture \"的\" when you see 的 (de)."
+  },
+  "hsk1-l5-i3": {
+    "text": "Picture \"了\" when you see 了 (le)."
+  },
+  "hsk1-l5-i4": {
+    "text": "Picture \"吗\" when you see 吗 (ma)."
+  },
+  "hsk1-l5-i5": {
+    "text": "Picture \"不\" when you see 不 (bù)."
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "@rememeber-it/generator",
+  "version": "0.0.0",
+  "description": "Offline, build-time OpenAI seeding of mnemonics + meme images with an admin curation loop.",
+  "type": "module",
+  "scripts": {
+    "seed": "tsx src/seed.ts",
+    "verify": "tsx src/verify.ts",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@rememeber-it/core": "*"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "openai": "^4.77.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.8"
+  }
+}
